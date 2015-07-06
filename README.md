@@ -30,4 +30,4 @@ From the terminal,
 
 produces
 
-    ![](https://raw.githubusercontent.com/notmatthancock/outline_to_graphviz/master/example.png)
+![](https://raw.githubusercontent.com/notmatthancock/outline_to_graphviz/master/example.png)
