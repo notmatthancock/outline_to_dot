@@ -1,4 +1,4 @@
-Convert a simple markdown-style outline format to graphviz. Run `example.py` to see an example. Basically, this takes a string formatted in a indentation outline format and outputs the corresponding hierarchy in graphviz format. See below or `example.py`.
+Convert a simple markdown-style outline format to graphviz. Essentially, this is a small function which takes a string formatted in a indented outline format and outputs the corresponding hierarchy in graphviz format. See below or `example.py`.
 
 Example input:
 
