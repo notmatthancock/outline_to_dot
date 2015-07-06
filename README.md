@@ -16,9 +16,9 @@ Example input:
 Example output:
 
     digraph G {
-        "main" -> topic-one;
-        "topic one" -> subtopic one;
-        "main" -> "topic-two";
+        "main" -> "topic one";
+        "topic one" -> "subtopic one";
+        "main" -> "topic two";
         "topic two" -> "subtopic one";
         "topic two" -> "subtopic two";
     }

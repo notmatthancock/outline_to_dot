@@ -36,9 +36,9 @@ def outline_to_graphviz(input, tab=' '*4):
                 subtopic two
     Example output:
         digraph G {
-            "main" -> topic-one;
-            "topic one" -> subtopic one;
-            "main" -> "topic-two";
+            "main" -> "topic one";
+            "topic one" -> "subtopic one";
+            "main" -> "topicr two";
             "topic two" -> "subtopic one";
             "topic two" -> "subtopic two";
         }
