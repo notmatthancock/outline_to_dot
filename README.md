@@ -22,3 +22,12 @@ Example output:
         "topic two" -> "subtopic one";
         "topic two" -> "subtopic two";
     }
+
+From the terminal,
+
+        python example.py > example.dot
+        dot -Tpng example.dot -o example.png
+
+produces
+
+    ![](https://raw.githubusercontent.com/notmatthancock/outline_to_graphviz/master/example.png)
