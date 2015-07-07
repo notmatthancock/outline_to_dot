@@ -1,8 +1,8 @@
 ## Indented outline => dot
 
-Convert a simple indented (markdown inspired) outline format to graphviz. Essentially, this is a small function which takes a string formatted in a indented outline format and outputs the corresponding hierarchy in graphviz format. See below or `example.py`.
+Convert a simple indented (markdown inspired) outline format to dot language.
 
-Example input file:
+Example input file (the default indent is 4 spaces, but can be changed):
 
     # This is a comment; blank lines get eaten.
 
