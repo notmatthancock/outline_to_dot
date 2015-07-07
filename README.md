@@ -41,7 +41,7 @@ produces the following graph:
 
 Another useful option is to maintain a strict tree structure in the output. This is specified as follows:
 
-    ./outline_to_dot.py -o output-file.dot --tree=True input-file.txt
+    ./outline_to_dot.py --tree=True input-file.txt
 
 Using the same input as above, this produces a slightly different graph:
 
