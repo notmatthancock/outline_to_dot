@@ -1,8 +1,8 @@
 """
-outline_to_graphviz.py
+outline_to_dot.py
 Author: Matt Hancock
 
-Convert markdown-style outlines to graphviz language.
+Convert markdown-style outlines to dot language.
 """
 
 def _get_indent_level(line, indent):
@@ -14,9 +14,9 @@ def _get_indent_level(line, indent):
         i+=1
     return i-1
 
-def outline_to_graphviz(input, indent=' '*4, tree=False):
+def outline_to_dot(input, indent=' '*4, tree=False):
     """
-    outline_to_graphviz converts a file where a tree-like hierarchy is specified
+    outline_to_dot converts a file where a tree-like hierarchy is specified
     by indentation to dot language.
 
     input: str
@@ -99,13 +99,13 @@ def outline_to_graphviz(input, indent=' '*4, tree=False):
 def usage():
     return \
     """
-    outline_to_graphviz.py:
+    outline_to_dot.py:
 
         Convert a simple indented outline markup to the dot language.
 
     Usage:
 
-        outline_to_graphviz.py [options] file
+        outline_to_dot.py [options] file
 
     Options:
     
@@ -154,7 +154,7 @@ if __name__ == '__main__':
             output_name  = a
 
     with open(sys.argv[-1], 'r') as f:
-        output = outline_to_graphviz(f.read(), tab, tree)
+        output = outline_to_dot(f.read(), tab, tree)
     if write_output:
         with open(output_name, 'w') as f:
             f.write(output)
