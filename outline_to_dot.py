@@ -51,7 +51,7 @@ def outline_to_dot(input, indent=' '*4, tree=False):
     lines = input.split('\n')
 
     # remove comments, blank lines
-    lines = [line for line in lines if line.strip() and not line.startswith('#')]
+    lines = [line for line in lines if line.strip() and not line.strip().startswith('#')]
     lt = len(tab)
 
     output = 'digraph G {\n'

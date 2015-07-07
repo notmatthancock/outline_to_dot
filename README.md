@@ -2,11 +2,12 @@
 
 Convert a simple indented (markdown inspired) outline format to dot language.
 
-Example input file (the default indent is 4 spaces, but can be changed):
+Example input file:
 
     # This is a comment; blank lines get eaten.
 
     main
+        # Default indent marker is 4 spaces. This can be changed.
         topic one
             subtopic one
         topic two
@@ -17,7 +18,7 @@ From the command line, running
 
     ./outline_to_dot.py input-file.txt
 
-produces the output string:
+produces the output:
 
     digraph G {
         "main" -> "topic one";
