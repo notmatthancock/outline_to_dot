@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 outline_to_dot.py
 Author: Matt Hancock
